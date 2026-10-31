@@ -12,7 +12,7 @@
         <link rel="prev" href="../guide/">
       
       
-        <link rel="next" href="../memory/">
+        <link rel="next" href="../custom-providers/">
       
       
         
@@ -705,10 +705,49 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#external-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External providers
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custom-providers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build a sandbox provider
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -5097,6 +5136,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#external-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External providers
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -5394,11 +5444,6 @@
 <td><a href="https://github.com/openai/openai-agents-python/blob/main/examples/sandbox/extensions/modal_runner.py">Modal runner</a></td>
 </tr>
 <tr>
-<td><code>RunloopSandboxClient</code></td>
-<td><code>openai-agents[runloop]</code></td>
-<td><a href="https://github.com/openai/openai-agents-python/blob/main/examples/sandbox/extensions/runloop/runner.py">Runloop runner</a></td>
-</tr>
-<tr>
 <td><code>VercelSandboxClient</code></td>
 <td><code>openai-agents[vercel]</code></td>
 <td><a href="https://github.com/openai/openai-agents-python/blob/main/examples/sandbox/extensions/vercel_runner.py">Vercel runner</a></td>
@@ -5450,10 +5495,6 @@
 <tr>
 <td><code>E2BSandboxClient</code></td>
 <td>Supports mounting cloud storage through <code>rclone</code> by using <code>E2BCloudBucketMountStrategy</code>; use it with <code>S3Mount</code>, <code>GCSMount</code>, <code>R2Mount</code>, <code>AzureBlobMount</code>, and <code>BoxMount</code>.</td>
-</tr>
-<tr>
-<td><code>RunloopSandboxClient</code></td>
-<td>Supports mounting cloud storage through <code>rclone</code> by using <code>RunloopCloudBucketMountStrategy</code>; use it with <code>S3Mount</code>, <code>GCSMount</code>, <code>R2Mount</code>, <code>AzureBlobMount</code>, and <code>BoxMount</code>.</td>
 </tr>
 <tr>
 <td><code>VercelSandboxClient</code></td>
@@ -5543,15 +5584,6 @@
 <td>-</td>
 </tr>
 <tr>
-<td><code>RunloopSandboxClient</code></td>
-<td>✓</td>
-<td>✓</td>
-<td>✓</td>
-<td>✓</td>
-<td>✓</td>
-<td>-</td>
-</tr>
-<tr>
 <td><code>VercelSandboxClient</code></td>
 <td>✓</td>
 <td>-</td>
@@ -5564,6 +5596,8 @@
 </table>
 </div>
 <p>For more runnable examples, browse <a href="https://github.com/openai/openai-agents-python/tree/main/examples/sandbox">examples/sandbox/</a> for local, coding, memory, handoff, and agent-composition patterns, and <a href="https://github.com/openai/openai-agents-python/tree/main/examples/sandbox/extensions">examples/sandbox/extensions/</a> for hosted sandbox clients.</p>
+<h2 id="external-providers">External providers</h2>
+<p>Applications can supply a sandbox client from a separately installed package through <code>SandboxRunConfig(client=...)</code>. See <a href="../custom-providers/">Build a sandbox provider</a> for the authoring contract and a runnable external-package example.</p>
 
 
 

@@ -9,32 +9,36 @@
       
       
       
+        <link rel="prev" href="../clients/">
+      
+      
+        <link rel="next" href="../memory/">
       
       
         
           <link rel="alternate" href="./" hreflang="en">
         
-          <link rel="alternate" href="../../../../../ja/ref/extensions/sandbox/runloop/mounts/" hreflang="ja">
+          <link rel="alternate" href="../../ja/sandbox/custom-providers/" hreflang="ja">
         
-          <link rel="alternate" href="../../../../../ko/ref/extensions/sandbox/runloop/mounts/" hreflang="ko">
+          <link rel="alternate" href="../../ko/sandbox/custom-providers/" hreflang="ko">
         
-          <link rel="alternate" href="../../../../../zh/ref/extensions/sandbox/runloop/mounts/" hreflang="zh">
+          <link rel="alternate" href="../../zh/sandbox/custom-providers/" hreflang="zh">
         
       
       
-      <link rel="icon" href="../../../../../images/favicon-platform.svg">
+      <link rel="icon" href="../../images/favicon-platform.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Mounts - OpenAI Agents SDK</title>
+        <title>Build a sandbox provider - OpenAI Agents SDK</title>
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,11 +57,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mounts" class="md-skip">
+        <a href="#build-a-sandbox-provider" class="md-skip">
           Skip to content
         </a>
       
@@ -96,9 +100,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../../.." title="OpenAI Agents SDK" class="md-header__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
+    <a href="../.." title="OpenAI Agents SDK" class="md-header__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
       
-  <img src="../../../../../assets/logo.svg" alt="logo">
+  <img src="../../assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -115,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Mounts
+              Build a sandbox provider
             
           </span>
         </div>
@@ -142,19 +146,19 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../ja/ref/extensions/sandbox/runloop/mounts/" hreflang="ja" class="md-select__link">
+            <a href="../../ja/sandbox/custom-providers/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../ko/ref/extensions/sandbox/runloop/mounts/" hreflang="ko" class="md-select__link">
+            <a href="../../ko/sandbox/custom-providers/" hreflang="ko" class="md-select__link">
               한국어
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../zh/ref/extensions/sandbox/runloop/mounts/" hreflang="zh" class="md-select__link">
+            <a href="../../zh/sandbox/custom-providers/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
@@ -243,9 +247,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../../.." title="OpenAI Agents SDK" class="md-nav__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
+    <a href="../.." title="OpenAI Agents SDK" class="md-nav__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
       
-  <img src="../../../../../assets/logo.svg" alt="logo">
+  <img src="../../assets/logo.svg" alt="logo">
 
     </a>
     OpenAI Agents SDK
@@ -272,7 +276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -299,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../quickstart/" class="md-nav__link">
+      <a href="../../quickstart/" class="md-nav__link">
         
   
   
@@ -326,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../config/" class="md-nav__link">
+      <a href="../../config/" class="md-nav__link">
         
   
   
@@ -350,8 +354,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -362,11 +368,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -387,7 +393,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -405,7 +411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../agents/" class="md-nav__link">
+      <a href="../../agents/" class="md-nav__link">
         
   
   
@@ -430,6 +436,8 @@
                 
   
   
+    
+  
   
   
     
@@ -439,11 +447,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
         
           
           <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
@@ -464,7 +472,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -482,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sandbox_agents/" class="md-nav__link">
+      <a href="../../sandbox_agents/" class="md-nav__link">
         
   
   
@@ -510,7 +518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sandbox/guide/" class="md-nav__link">
+      <a href="../guide/" class="md-nav__link">
         
   
   
@@ -538,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sandbox/clients/" class="md-nav__link">
+      <a href="../clients/" class="md-nav__link">
         
   
   
@@ -563,10 +571,140 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build a sandbox provider
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build a sandbox provider
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#start-with-a-working-external-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start with a working external package
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implement-a-new-execution-runtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implement a new execution runtime
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#registration-happens-when-types-are-imported" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration happens when types are imported
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preserve-lifecycle-and-resume-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preserve lifecycle and resume semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-and-test-the-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package and test the integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sandbox/memory/" class="md-nav__link">
+      <a href="../memory/" class="md-nav__link">
         
   
   
@@ -651,7 +789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../realtime/quickstart/" class="md-nav__link">
+      <a href="../../realtime/quickstart/" class="md-nav__link">
         
   
   
@@ -679,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../realtime/transport/" class="md-nav__link">
+      <a href="../../realtime/transport/" class="md-nav__link">
         
   
   
@@ -707,7 +845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../realtime/guide/" class="md-nav__link">
+      <a href="../../realtime/guide/" class="md-nav__link">
         
   
   
@@ -792,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../voice/quickstart/" class="md-nav__link">
+      <a href="../../voice/quickstart/" class="md-nav__link">
         
   
   
@@ -820,7 +958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../voice/pipeline/" class="md-nav__link">
+      <a href="../../voice/pipeline/" class="md-nav__link">
         
   
   
@@ -848,7 +986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../voice/tracing/" class="md-nav__link">
+      <a href="../../voice/tracing/" class="md-nav__link">
         
   
   
@@ -884,7 +1022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../models/" class="md-nav__link">
+      <a href="../../models/" class="md-nav__link">
         
   
   
@@ -912,7 +1050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../tools/" class="md-nav__link">
+      <a href="../../tools/" class="md-nav__link">
         
   
   
@@ -940,7 +1078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../guardrails/" class="md-nav__link">
+      <a href="../../guardrails/" class="md-nav__link">
         
   
   
@@ -968,7 +1106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../running_agents/" class="md-nav__link">
+      <a href="../../running_agents/" class="md-nav__link">
         
   
   
@@ -996,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../streaming/" class="md-nav__link">
+      <a href="../../streaming/" class="md-nav__link">
         
   
   
@@ -1024,7 +1162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../multi_agent/" class="md-nav__link">
+      <a href="../../multi_agent/" class="md-nav__link">
         
   
   
@@ -1052,7 +1190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../handoffs/" class="md-nav__link">
+      <a href="../../handoffs/" class="md-nav__link">
         
   
   
@@ -1080,7 +1218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../results/" class="md-nav__link">
+      <a href="../../results/" class="md-nav__link">
         
   
   
@@ -1108,7 +1246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../human_in_the_loop/" class="md-nav__link">
+      <a href="../../human_in_the_loop/" class="md-nav__link">
         
   
   
@@ -1185,7 +1323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sessions/" class="md-nav__link">
+      <a href="../../sessions/" class="md-nav__link">
         
   
   
@@ -1213,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sessions/sqlalchemy_session/" class="md-nav__link">
+      <a href="../../sessions/sqlalchemy_session/" class="md-nav__link">
         
   
   
@@ -1241,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sessions/advanced_sqlite_session/" class="md-nav__link">
+      <a href="../../sessions/advanced_sqlite_session/" class="md-nav__link">
         
   
   
@@ -1269,7 +1407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../sessions/encrypted_session/" class="md-nav__link">
+      <a href="../../sessions/encrypted_session/" class="md-nav__link">
         
   
   
@@ -1305,7 +1443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../context/" class="md-nav__link">
+      <a href="../../context/" class="md-nav__link">
         
   
   
@@ -1333,7 +1471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../usage/" class="md-nav__link">
+      <a href="../../usage/" class="md-nav__link">
         
   
   
@@ -1361,7 +1499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../mcp/" class="md-nav__link">
+      <a href="../../mcp/" class="md-nav__link">
         
   
   
@@ -1389,7 +1527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../tracing/" class="md-nav__link">
+      <a href="../../tracing/" class="md-nav__link">
         
   
   
@@ -1417,7 +1555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../testing/" class="md-nav__link">
+      <a href="../../testing/" class="md-nav__link">
         
   
   
@@ -1445,7 +1583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../visualization/" class="md-nav__link">
+      <a href="../../visualization/" class="md-nav__link">
         
   
   
@@ -1473,7 +1611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../repl/" class="md-nav__link">
+      <a href="../../repl/" class="md-nav__link">
         
   
   
@@ -1501,7 +1639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../release/" class="md-nav__link">
+      <a href="../../release/" class="md-nav__link">
         
   
   
@@ -1637,7 +1775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../" class="md-nav__link">
+      <a href="../../ref/" class="md-nav__link">
         
   
   
@@ -1665,7 +1803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../agent/" class="md-nav__link">
+      <a href="../../ref/agent/" class="md-nav__link">
         
   
   
@@ -1693,7 +1831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../run/" class="md-nav__link">
+      <a href="../../ref/run/" class="md-nav__link">
         
   
   
@@ -1721,7 +1859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../run_config/" class="md-nav__link">
+      <a href="../../ref/run_config/" class="md-nav__link">
         
   
   
@@ -1749,7 +1887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../run_state/" class="md-nav__link">
+      <a href="../../ref/run_state/" class="md-nav__link">
         
   
   
@@ -1777,7 +1915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../testing/" class="md-nav__link">
+      <a href="../../ref/testing/" class="md-nav__link">
         
   
   
@@ -1854,7 +1992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/" class="md-nav__link">
+      <a href="../../ref/sandbox/" class="md-nav__link">
         
   
   
@@ -1882,7 +2020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/sandbox_agent/" class="md-nav__link">
+      <a href="../../ref/sandbox/sandbox_agent/" class="md-nav__link">
         
   
   
@@ -1910,7 +2048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/manifest/" class="md-nav__link">
+      <a href="../../ref/sandbox/manifest/" class="md-nav__link">
         
   
   
@@ -1938,7 +2076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/permissions/" class="md-nav__link">
+      <a href="../../ref/sandbox/permissions/" class="md-nav__link">
         
   
   
@@ -1966,7 +2104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/snapshot/" class="md-nav__link">
+      <a href="../../ref/sandbox/snapshot/" class="md-nav__link">
         
   
   
@@ -1994,7 +2132,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/entries/" class="md-nav__link">
+      <a href="../../ref/sandbox/entries/" class="md-nav__link">
         
   
   
@@ -2071,7 +2209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/capabilities/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/capabilities/" class="md-nav__link">
         
   
   
@@ -2099,7 +2237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/capability/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/capability/" class="md-nav__link">
         
   
   
@@ -2127,7 +2265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/filesystem/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/filesystem/" class="md-nav__link">
         
   
   
@@ -2155,7 +2293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/shell/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/shell/" class="md-nav__link">
         
   
   
@@ -2183,7 +2321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/memory/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/memory/" class="md-nav__link">
         
   
   
@@ -2211,7 +2349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/skills/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/skills/" class="md-nav__link">
         
   
   
@@ -2239,7 +2377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/capabilities/compaction/" class="md-nav__link">
+      <a href="../../ref/sandbox/capabilities/compaction/" class="md-nav__link">
         
   
   
@@ -2275,7 +2413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/session/sandbox_client/" class="md-nav__link">
+      <a href="../../ref/sandbox/session/sandbox_client/" class="md-nav__link">
         
   
   
@@ -2303,7 +2441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/session/sandbox_session/" class="md-nav__link">
+      <a href="../../ref/sandbox/session/sandbox_session/" class="md-nav__link">
         
   
   
@@ -2331,7 +2469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/session/sandbox_session_state/" class="md-nav__link">
+      <a href="../../ref/sandbox/session/sandbox_session_state/" class="md-nav__link">
         
   
   
@@ -2359,7 +2497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/sandboxes/unix_local/" class="md-nav__link">
+      <a href="../../ref/sandbox/sandboxes/unix_local/" class="md-nav__link">
         
   
   
@@ -2387,7 +2525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sandbox/sandboxes/docker/" class="md-nav__link">
+      <a href="../../ref/sandbox/sandboxes/docker/" class="md-nav__link">
         
   
   
@@ -2423,7 +2561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../responses_websocket_session/" class="md-nav__link">
+      <a href="../../ref/responses_websocket_session/" class="md-nav__link">
         
   
   
@@ -2451,7 +2589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../run_error_handlers/" class="md-nav__link">
+      <a href="../../ref/run_error_handlers/" class="md-nav__link">
         
   
   
@@ -2479,7 +2617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../memory/" class="md-nav__link">
+      <a href="../../ref/memory/" class="md-nav__link">
         
   
   
@@ -2507,7 +2645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../repl/" class="md-nav__link">
+      <a href="../../ref/repl/" class="md-nav__link">
         
   
   
@@ -2535,7 +2673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tool/" class="md-nav__link">
+      <a href="../../ref/tool/" class="md-nav__link">
         
   
   
@@ -2563,7 +2701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../decorators/" class="md-nav__link">
+      <a href="../../ref/decorators/" class="md-nav__link">
         
   
   
@@ -2591,7 +2729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tool_context/" class="md-nav__link">
+      <a href="../../ref/tool_context/" class="md-nav__link">
         
   
   
@@ -2619,7 +2757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../result/" class="md-nav__link">
+      <a href="../../ref/result/" class="md-nav__link">
         
   
   
@@ -2647,7 +2785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../stream_events/" class="md-nav__link">
+      <a href="../../ref/stream_events/" class="md-nav__link">
         
   
   
@@ -2675,7 +2813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../handoffs/" class="md-nav__link">
+      <a href="../../ref/handoffs/" class="md-nav__link">
         
   
   
@@ -2703,7 +2841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../lifecycle/" class="md-nav__link">
+      <a href="../../ref/lifecycle/" class="md-nav__link">
         
   
   
@@ -2731,7 +2869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../items/" class="md-nav__link">
+      <a href="../../ref/items/" class="md-nav__link">
         
   
   
@@ -2759,7 +2897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../run_context/" class="md-nav__link">
+      <a href="../../ref/run_context/" class="md-nav__link">
         
   
   
@@ -2787,7 +2925,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../usage/" class="md-nav__link">
+      <a href="../../ref/usage/" class="md-nav__link">
         
   
   
@@ -2815,7 +2953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../exceptions/" class="md-nav__link">
+      <a href="../../ref/exceptions/" class="md-nav__link">
         
   
   
@@ -2843,7 +2981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../guardrail/" class="md-nav__link">
+      <a href="../../ref/guardrail/" class="md-nav__link">
         
   
   
@@ -2871,7 +3009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../prompts/" class="md-nav__link">
+      <a href="../../ref/prompts/" class="md-nav__link">
         
   
   
@@ -2899,7 +3037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../model_settings/" class="md-nav__link">
+      <a href="../../ref/model_settings/" class="md-nav__link">
         
   
   
@@ -2927,7 +3065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../strict_schema/" class="md-nav__link">
+      <a href="../../ref/strict_schema/" class="md-nav__link">
         
   
   
@@ -2955,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tool_guardrails/" class="md-nav__link">
+      <a href="../../ref/tool_guardrails/" class="md-nav__link">
         
   
   
@@ -2983,7 +3121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../computer/" class="md-nav__link">
+      <a href="../../ref/computer/" class="md-nav__link">
         
   
   
@@ -3011,7 +3149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../agent_output/" class="md-nav__link">
+      <a href="../../ref/agent_output/" class="md-nav__link">
         
   
   
@@ -3039,7 +3177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../function_schema/" class="md-nav__link">
+      <a href="../../ref/function_schema/" class="md-nav__link">
         
   
   
@@ -3067,7 +3205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../models/interface/" class="md-nav__link">
+      <a href="../../ref/models/interface/" class="md-nav__link">
         
   
   
@@ -3095,7 +3233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../models/openai_chatcompletions/" class="md-nav__link">
+      <a href="../../ref/models/openai_chatcompletions/" class="md-nav__link">
         
   
   
@@ -3123,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../models/openai_responses/" class="md-nav__link">
+      <a href="../../ref/models/openai_responses/" class="md-nav__link">
         
   
   
@@ -3151,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../models/openai_provider/" class="md-nav__link">
+      <a href="../../ref/models/openai_provider/" class="md-nav__link">
         
   
   
@@ -3179,7 +3317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../models/multi_provider/" class="md-nav__link">
+      <a href="../../ref/models/multi_provider/" class="md-nav__link">
         
   
   
@@ -3207,7 +3345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../mcp/server/" class="md-nav__link">
+      <a href="../../ref/mcp/server/" class="md-nav__link">
         
   
   
@@ -3235,7 +3373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../mcp/util/" class="md-nav__link">
+      <a href="../../ref/mcp/util/" class="md-nav__link">
         
   
   
@@ -3263,7 +3401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../mcp/manager/" class="md-nav__link">
+      <a href="../../ref/mcp/manager/" class="md-nav__link">
         
   
   
@@ -3348,7 +3486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/" class="md-nav__link">
+      <a href="../../ref/tracing/" class="md-nav__link">
         
   
   
@@ -3376,7 +3514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/create/" class="md-nav__link">
+      <a href="../../ref/tracing/create/" class="md-nav__link">
         
   
   
@@ -3404,7 +3542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/traces/" class="md-nav__link">
+      <a href="../../ref/tracing/traces/" class="md-nav__link">
         
   
   
@@ -3432,7 +3570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/spans/" class="md-nav__link">
+      <a href="../../ref/tracing/spans/" class="md-nav__link">
         
   
   
@@ -3460,7 +3598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/processor_interface/" class="md-nav__link">
+      <a href="../../ref/tracing/processor_interface/" class="md-nav__link">
         
   
   
@@ -3488,7 +3626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/processors/" class="md-nav__link">
+      <a href="../../ref/tracing/processors/" class="md-nav__link">
         
   
   
@@ -3516,7 +3654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/scope/" class="md-nav__link">
+      <a href="../../ref/tracing/scope/" class="md-nav__link">
         
   
   
@@ -3544,7 +3682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/setup/" class="md-nav__link">
+      <a href="../../ref/tracing/setup/" class="md-nav__link">
         
   
   
@@ -3572,7 +3710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/span_data/" class="md-nav__link">
+      <a href="../../ref/tracing/span_data/" class="md-nav__link">
         
   
   
@@ -3600,7 +3738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tracing/util/" class="md-nav__link">
+      <a href="../../ref/tracing/util/" class="md-nav__link">
         
   
   
@@ -3685,7 +3823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/agent/" class="md-nav__link">
+      <a href="../../ref/realtime/agent/" class="md-nav__link">
         
   
   
@@ -3713,7 +3851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/runner/" class="md-nav__link">
+      <a href="../../ref/realtime/runner/" class="md-nav__link">
         
   
   
@@ -3741,7 +3879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/session/" class="md-nav__link">
+      <a href="../../ref/realtime/session/" class="md-nav__link">
         
   
   
@@ -3769,7 +3907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/events/" class="md-nav__link">
+      <a href="../../ref/realtime/events/" class="md-nav__link">
         
   
   
@@ -3797,7 +3935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/config/" class="md-nav__link">
+      <a href="../../ref/realtime/config/" class="md-nav__link">
         
   
   
@@ -3825,7 +3963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/model/" class="md-nav__link">
+      <a href="../../ref/realtime/model/" class="md-nav__link">
         
   
   
@@ -3853,7 +3991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../realtime/testing/" class="md-nav__link">
+      <a href="../../ref/realtime/testing/" class="md-nav__link">
         
   
   
@@ -3938,7 +4076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/pipeline/" class="md-nav__link">
+      <a href="../../ref/voice/pipeline/" class="md-nav__link">
         
   
   
@@ -3966,7 +4104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/workflow/" class="md-nav__link">
+      <a href="../../ref/voice/workflow/" class="md-nav__link">
         
   
   
@@ -3994,7 +4132,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/input/" class="md-nav__link">
+      <a href="../../ref/voice/input/" class="md-nav__link">
         
   
   
@@ -4022,7 +4160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/result/" class="md-nav__link">
+      <a href="../../ref/voice/result/" class="md-nav__link">
         
   
   
@@ -4050,7 +4188,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/pipeline_config/" class="md-nav__link">
+      <a href="../../ref/voice/pipeline_config/" class="md-nav__link">
         
   
   
@@ -4078,7 +4216,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/events/" class="md-nav__link">
+      <a href="../../ref/voice/events/" class="md-nav__link">
         
   
   
@@ -4106,7 +4244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/exceptions/" class="md-nav__link">
+      <a href="../../ref/voice/exceptions/" class="md-nav__link">
         
   
   
@@ -4134,7 +4272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/model/" class="md-nav__link">
+      <a href="../../ref/voice/model/" class="md-nav__link">
         
   
   
@@ -4162,7 +4300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/utils/" class="md-nav__link">
+      <a href="../../ref/voice/utils/" class="md-nav__link">
         
   
   
@@ -4190,7 +4328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/models/openai_provider/" class="md-nav__link">
+      <a href="../../ref/voice/models/openai_provider/" class="md-nav__link">
         
   
   
@@ -4218,7 +4356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/models/openai_stt/" class="md-nav__link">
+      <a href="../../ref/voice/models/openai_stt/" class="md-nav__link">
         
   
   
@@ -4246,7 +4384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/models/openai_tts/" class="md-nav__link">
+      <a href="../../ref/voice/models/openai_tts/" class="md-nav__link">
         
   
   
@@ -4274,7 +4412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../voice/testing/" class="md-nav__link">
+      <a href="../../ref/voice/testing/" class="md-nav__link">
         
   
   
@@ -4359,7 +4497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../handoff_filters/" class="md-nav__link">
+      <a href="../../ref/extensions/handoff_filters/" class="md-nav__link">
         
   
   
@@ -4387,7 +4525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../handoff_prompt/" class="md-nav__link">
+      <a href="../../ref/extensions/handoff_prompt/" class="md-nav__link">
         
   
   
@@ -4464,7 +4602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../models/any_llm_model/" class="md-nav__link">
+      <a href="../../ref/extensions/models/any_llm_model/" class="md-nav__link">
         
   
   
@@ -4492,7 +4630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../models/any_llm_provider/" class="md-nav__link">
+      <a href="../../ref/extensions/models/any_llm_provider/" class="md-nav__link">
         
   
   
@@ -4520,7 +4658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../models/litellm_model/" class="md-nav__link">
+      <a href="../../ref/extensions/models/litellm_model/" class="md-nav__link">
         
   
   
@@ -4548,7 +4686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../models/litellm_provider/" class="md-nav__link">
+      <a href="../../ref/extensions/models/litellm_provider/" class="md-nav__link">
         
   
   
@@ -4584,7 +4722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tool_output_trimmer/" class="md-nav__link">
+      <a href="../../ref/extensions/tool_output_trimmer/" class="md-nav__link">
         
   
   
@@ -4612,7 +4750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/sqlalchemy_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/sqlalchemy_session/" class="md-nav__link">
         
   
   
@@ -4640,7 +4778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/async_sqlite_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/async_sqlite_session/" class="md-nav__link">
         
   
   
@@ -4668,7 +4806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/redis_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/redis_session/" class="md-nav__link">
         
   
   
@@ -4696,7 +4834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/mongodb_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/mongodb_session/" class="md-nav__link">
         
   
   
@@ -4724,7 +4862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/dapr_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/dapr_session/" class="md-nav__link">
         
   
   
@@ -4752,7 +4890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/encrypt_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/encrypt_session/" class="md-nav__link">
         
   
   
@@ -4780,7 +4918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../memory/advanced_sqlite_session/" class="md-nav__link">
+      <a href="../../ref/extensions/memory/advanced_sqlite_session/" class="md-nav__link">
         
   
   
@@ -4843,10 +4981,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#agents.extensions.sandbox.runloop.mounts" class="md-nav__link">
+  <a href="#start-with-a-working-external-package" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mounts
+        Start with a working external package
       
     </span>
   </a>
@@ -4854,30 +4992,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#agents.extensions.sandbox.runloop.mounts.RunloopCloudBucketMountStrategy" class="md-nav__link">
+  <a href="#implement-a-new-execution-runtime" class="md-nav__link">
     <span class="md-ellipsis">
       
-        RunloopCloudBucketMountStrategy
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="RunloopCloudBucketMountStrategy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#agents.extensions.sandbox.runloop.mounts.RunloopCloudBucketMountStrategy.supports_native_snapshot_detach" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        supports_native_snapshot_detach
+        Implement a new execution runtime
       
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#registration-happens-when-types-are-imported" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registration happens when types are imported
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preserve-lifecycle-and-resume-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preserve lifecycle and resume semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-and-test-the-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package and test the integration
+      
+    </span>
+  </a>
   
 </li>
       
@@ -4899,6 +5053,64 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Intro
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../agents/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../sandbox_agents/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Sandbox agents
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -4909,299 +5121,111 @@
   
 
 
-<h1 id="mounts"><code>Mounts</code></h1>
-
-
-<div class="doc doc-object doc-module">
-
-
-
-<a id="agents.extensions.sandbox.runloop.mounts"></a>
-    <div class="doc doc-contents first">
-
-        <p>Mount strategy for Runloop sandboxes.</p>
-
-
-
-
-
-
-
-
-
-
-<div class="doc doc-children">
-
-
-
-
-
-
-
-
-
-<div class="doc doc-object doc-class">
-
-
-
-<h3 id="agents.extensions.sandbox.runloop.mounts.RunloopCloudBucketMountStrategy" class="doc doc-heading">
-            <span class="doc doc-object-name doc-class-name">RunloopCloudBucketMountStrategy</span>
-
-
-</h3>
-
-
-    <div class="doc doc-contents ">
-            <p class="doc doc-class-bases">
-              Bases: <code><a class="autorefs autorefs-internal" title="MountStrategyBase (agents.sandbox.entries.mounts.base.MountStrategyBase)" href="../../../../sandbox/entries/mounts/base/#agents.sandbox.entries.mounts.base.MountStrategyBase">MountStrategyBase</a></code></p>
-
-
-
-        <p>Mount rclone-backed cloud storage in Runloop sandboxes.</p>
-
-
-
-
-
-
-
-
-              <details class="mkdocstrings-source">
-                <summary>Source code in <code>src/agents/extensions/sandbox/runloop/mounts.py</code></summary>
-                <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-113">113</a></span>
-<span class="normal"><a href="#__codelineno-0-114">114</a></span>
-<span class="normal"><a href="#__codelineno-0-115">115</a></span>
-<span class="normal"><a href="#__codelineno-0-116">116</a></span>
-<span class="normal"><a href="#__codelineno-0-117">117</a></span>
-<span class="normal"><a href="#__codelineno-0-118">118</a></span>
-<span class="normal"><a href="#__codelineno-0-119">119</a></span>
-<span class="normal"><a href="#__codelineno-0-120">120</a></span>
-<span class="normal"><a href="#__codelineno-0-121">121</a></span>
-<span class="normal"><a href="#__codelineno-0-122">122</a></span>
-<span class="normal"><a href="#__codelineno-0-123">123</a></span>
-<span class="normal"><a href="#__codelineno-0-124">124</a></span>
-<span class="normal"><a href="#__codelineno-0-125">125</a></span>
-<span class="normal"><a href="#__codelineno-0-126">126</a></span>
-<span class="normal"><a href="#__codelineno-0-127">127</a></span>
-<span class="normal"><a href="#__codelineno-0-128">128</a></span>
-<span class="normal"><a href="#__codelineno-0-129">129</a></span>
-<span class="normal"><a href="#__codelineno-0-130">130</a></span>
-<span class="normal"><a href="#__codelineno-0-131">131</a></span>
-<span class="normal"><a href="#__codelineno-0-132">132</a></span>
-<span class="normal"><a href="#__codelineno-0-133">133</a></span>
-<span class="normal"><a href="#__codelineno-0-134">134</a></span>
-<span class="normal"><a href="#__codelineno-0-135">135</a></span>
-<span class="normal"><a href="#__codelineno-0-136">136</a></span>
-<span class="normal"><a href="#__codelineno-0-137">137</a></span>
-<span class="normal"><a href="#__codelineno-0-138">138</a></span>
-<span class="normal"><a href="#__codelineno-0-139">139</a></span>
-<span class="normal"><a href="#__codelineno-0-140">140</a></span>
-<span class="normal"><a href="#__codelineno-0-141">141</a></span>
-<span class="normal"><a href="#__codelineno-0-142">142</a></span>
-<span class="normal"><a href="#__codelineno-0-143">143</a></span>
-<span class="normal"><a href="#__codelineno-0-144">144</a></span>
-<span class="normal"><a href="#__codelineno-0-145">145</a></span>
-<span class="normal"><a href="#__codelineno-0-146">146</a></span>
-<span class="normal"><a href="#__codelineno-0-147">147</a></span>
-<span class="normal"><a href="#__codelineno-0-148">148</a></span>
-<span class="normal"><a href="#__codelineno-0-149">149</a></span>
-<span class="normal"><a href="#__codelineno-0-150">150</a></span>
-<span class="normal"><a href="#__codelineno-0-151">151</a></span>
-<span class="normal"><a href="#__codelineno-0-152">152</a></span>
-<span class="normal"><a href="#__codelineno-0-153">153</a></span>
-<span class="normal"><a href="#__codelineno-0-154">154</a></span>
-<span class="normal"><a href="#__codelineno-0-155">155</a></span>
-<span class="normal"><a href="#__codelineno-0-156">156</a></span>
-<span class="normal"><a href="#__codelineno-0-157">157</a></span>
-<span class="normal"><a href="#__codelineno-0-158">158</a></span>
-<span class="normal"><a href="#__codelineno-0-159">159</a></span>
-<span class="normal"><a href="#__codelineno-0-160">160</a></span>
-<span class="normal"><a href="#__codelineno-0-161">161</a></span>
-<span class="normal"><a href="#__codelineno-0-162">162</a></span>
-<span class="normal"><a href="#__codelineno-0-163">163</a></span>
-<span class="normal"><a href="#__codelineno-0-164">164</a></span>
-<span class="normal"><a href="#__codelineno-0-165">165</a></span>
-<span class="normal"><a href="#__codelineno-0-166">166</a></span>
-<span class="normal"><a href="#__codelineno-0-167">167</a></span>
-<span class="normal"><a href="#__codelineno-0-168">168</a></span>
-<span class="normal"><a href="#__codelineno-0-169">169</a></span>
-<span class="normal"><a href="#__codelineno-0-170">170</a></span>
-<span class="normal"><a href="#__codelineno-0-171">171</a></span>
-<span class="normal"><a href="#__codelineno-0-172">172</a></span>
-<span class="normal"><a href="#__codelineno-0-173">173</a></span>
-<span class="normal"><a href="#__codelineno-0-174">174</a></span>
-<span class="normal"><a href="#__codelineno-0-175">175</a></span>
-<span class="normal"><a href="#__codelineno-0-176">176</a></span>
-<span class="normal"><a href="#__codelineno-0-177">177</a></span>
-<span class="normal"><a href="#__codelineno-0-178">178</a></span>
-<span class="normal"><a href="#__codelineno-0-179">179</a></span>
-<span class="normal"><a href="#__codelineno-0-180">180</a></span>
-<span class="normal"><a href="#__codelineno-0-181">181</a></span>
-<span class="normal"><a href="#__codelineno-0-182">182</a></span>
-<span class="normal"><a href="#__codelineno-0-183">183</a></span>
-<span class="normal"><a href="#__codelineno-0-184">184</a></span>
-<span class="normal"><a href="#__codelineno-0-185">185</a></span>
-<span class="normal"><a href="#__codelineno-0-186">186</a></span>
-<span class="normal"><a href="#__codelineno-0-187">187</a></span>
-<span class="normal"><a href="#__codelineno-0-188">188</a></span>
-<span class="normal"><a href="#__codelineno-0-189">189</a></span>
-<span class="normal"><a href="#__codelineno-0-190">190</a></span>
-<span class="normal"><a href="#__codelineno-0-191">191</a></span>
-<span class="normal"><a href="#__codelineno-0-192">192</a></span>
-<span class="normal"><a href="#__codelineno-0-193">193</a></span>
-<span class="normal"><a href="#__codelineno-0-194">194</a></span>
-<span class="normal"><a href="#__codelineno-0-195">195</a></span>
-<span class="normal"><a href="#__codelineno-0-196">196</a></span>
-<span class="normal"><a href="#__codelineno-0-197">197</a></span>
-<span class="normal"><a href="#__codelineno-0-198">198</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-113"><a id="__codelineno-0-113" name="__codelineno-0-113"></a><span class="k">class</span><span class="w"> </span><span class="nc">RunloopCloudBucketMountStrategy</span><span class="p">(</span><span class="n">MountStrategyBase</span><span class="p">):</span>
-</span><span id="__span-0-114"><a id="__codelineno-0-114" name="__codelineno-0-114"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Mount rclone-backed cloud storage in Runloop sandboxes.&quot;&quot;&quot;</span>
-</span><span id="__span-0-115"><a id="__codelineno-0-115" name="__codelineno-0-115"></a>
-</span><span id="__span-0-116"><a id="__codelineno-0-116" name="__codelineno-0-116"></a>    <span class="nb">type</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;runloop_cloud_bucket&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;runloop_cloud_bucket&quot;</span>
-</span><span id="__span-0-117"><a id="__codelineno-0-117" name="__codelineno-0-117"></a>    <span class="n">pattern</span><span class="p">:</span> <span class="n">RcloneMountPattern</span> <span class="o">=</span> <span class="n">RcloneMountPattern</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;fuse&quot;</span><span class="p">)</span>
-</span><span id="__span-0-118"><a id="__codelineno-0-118" name="__codelineno-0-118"></a>
-</span><span id="__span-0-119"><a id="__codelineno-0-119" name="__codelineno-0-119"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">_delegate</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">InContainerMountStrategy</span><span class="p">:</span>
-</span><span id="__span-0-120"><a id="__codelineno-0-120" name="__codelineno-0-120"></a>        <span class="k">return</span> <span class="n">InContainerMountStrategy</span><span class="p">(</span><span class="n">pattern</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">pattern</span><span class="p">)</span>
-</span><span id="__span-0-121"><a id="__codelineno-0-121" name="__codelineno-0-121"></a>
-</span><span id="__span-0-122"><a id="__codelineno-0-122" name="__codelineno-0-122"></a>    <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">_delegate_for_session</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">session</span><span class="p">:</span> <span class="n">BaseSandboxSession</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">InContainerMountStrategy</span><span class="p">:</span>
-</span><span id="__span-0-123"><a id="__codelineno-0-123" name="__codelineno-0-123"></a>        <span class="k">return</span> <span class="n">InContainerMountStrategy</span><span class="p">(</span>
-</span><span id="__span-0-124"><a id="__codelineno-0-124" name="__codelineno-0-124"></a>            <span class="n">pattern</span><span class="o">=</span><span class="k">await</span> <span class="n">_rclone_pattern_for_session</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">pattern</span><span class="p">)</span>
-</span><span id="__span-0-125"><a id="__codelineno-0-125" name="__codelineno-0-125"></a>        <span class="p">)</span>
-</span><span id="__span-0-126"><a id="__codelineno-0-126" name="__codelineno-0-126"></a>
-</span><span id="__span-0-127"><a id="__codelineno-0-127" name="__codelineno-0-127"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">validate_mount</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-0-128"><a id="__codelineno-0-128" name="__codelineno-0-128"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">_delegate</span><span class="p">()</span><span class="o">.</span><span class="n">validate_mount</span><span class="p">(</span><span class="n">mount</span><span class="p">)</span>
-</span><span id="__span-0-129"><a id="__codelineno-0-129" name="__codelineno-0-129"></a>
-</span><span id="__span-0-130"><a id="__codelineno-0-130" name="__codelineno-0-130"></a>    <span class="nd">@redact_mount_error_data</span>
-</span><span id="__span-0-131"><a id="__codelineno-0-131" name="__codelineno-0-131"></a>    <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">activate</span><span class="p">(</span>
-</span><span id="__span-0-132"><a id="__codelineno-0-132" name="__codelineno-0-132"></a>        <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-133"><a id="__codelineno-0-133" name="__codelineno-0-133"></a>        <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">,</span>
-</span><span id="__span-0-134"><a id="__codelineno-0-134" name="__codelineno-0-134"></a>        <span class="n">session</span><span class="p">:</span> <span class="n">BaseSandboxSession</span><span class="p">,</span>
-</span><span id="__span-0-135"><a id="__codelineno-0-135" name="__codelineno-0-135"></a>        <span class="n">dest</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-</span><span id="__span-0-136"><a id="__codelineno-0-136" name="__codelineno-0-136"></a>        <span class="n">base_dir</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-</span><span id="__span-0-137"><a id="__codelineno-0-137" name="__codelineno-0-137"></a>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">MaterializedFile</span><span class="p">]:</span>
-</span><span id="__span-0-138"><a id="__codelineno-0-138" name="__codelineno-0-138"></a>        <span class="n">validate_mount_activation_credential_boundary</span><span class="p">(</span>
-</span><span id="__span-0-139"><a id="__codelineno-0-139" name="__codelineno-0-139"></a>            <span class="n">mount</span><span class="p">,</span>
-</span><span id="__span-0-140"><a id="__codelineno-0-140" name="__codelineno-0-140"></a>            <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-141"><a id="__codelineno-0-141" name="__codelineno-0-141"></a>            <span class="n">manifest</span><span class="o">=</span><span class="nb">getattr</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="s2">&quot;state&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span> <span class="s2">&quot;manifest&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
-</span><span id="__span-0-142"><a id="__codelineno-0-142" name="__codelineno-0-142"></a>            <span class="n">mount_path</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="n">mount</span><span class="o">.</span><span class="n">_resolve_mount_path</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">dest</span><span class="p">),</span>
-</span><span id="__span-0-143"><a id="__codelineno-0-143" name="__codelineno-0-143"></a>            <span class="n">provider_backend_id</span><span class="o">=</span><span class="s2">&quot;runloop&quot;</span><span class="p">,</span>
-</span><span id="__span-0-144"><a id="__codelineno-0-144" name="__codelineno-0-144"></a>        <span class="p">)</span>
-</span><span id="__span-0-145"><a id="__codelineno-0-145" name="__codelineno-0-145"></a>        <span class="n">_assert_runloop_session</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-146"><a id="__codelineno-0-146" name="__codelineno-0-146"></a>        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">pattern</span><span class="o">.</span><span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;fuse&quot;</span><span class="p">:</span>
-</span><span id="__span-0-147"><a id="__codelineno-0-147" name="__codelineno-0-147"></a>            <span class="k">await</span> <span class="n">_ensure_fuse_support</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-148"><a id="__codelineno-0-148" name="__codelineno-0-148"></a>        <span class="k">await</span> <span class="n">_ensure_rclone</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-149"><a id="__codelineno-0-149" name="__codelineno-0-149"></a>        <span class="n">delegate</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_delegate_for_session</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-150"><a id="__codelineno-0-150" name="__codelineno-0-150"></a>        <span class="k">return</span> <span class="k">await</span> <span class="n">delegate</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">mount</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">dest</span><span class="p">,</span> <span class="n">base_dir</span><span class="p">)</span>
-</span><span id="__span-0-151"><a id="__codelineno-0-151" name="__codelineno-0-151"></a>
-</span><span id="__span-0-152"><a id="__codelineno-0-152" name="__codelineno-0-152"></a>    <span class="nd">@redact_mount_error_data</span>
-</span><span id="__span-0-153"><a id="__codelineno-0-153" name="__codelineno-0-153"></a>    <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">deactivate</span><span class="p">(</span>
-</span><span id="__span-0-154"><a id="__codelineno-0-154" name="__codelineno-0-154"></a>        <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-155"><a id="__codelineno-0-155" name="__codelineno-0-155"></a>        <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">,</span>
-</span><span id="__span-0-156"><a id="__codelineno-0-156" name="__codelineno-0-156"></a>        <span class="n">session</span><span class="p">:</span> <span class="n">BaseSandboxSession</span><span class="p">,</span>
-</span><span id="__span-0-157"><a id="__codelineno-0-157" name="__codelineno-0-157"></a>        <span class="n">dest</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-</span><span id="__span-0-158"><a id="__codelineno-0-158" name="__codelineno-0-158"></a>        <span class="n">base_dir</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-</span><span id="__span-0-159"><a id="__codelineno-0-159" name="__codelineno-0-159"></a>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-0-160"><a id="__codelineno-0-160" name="__codelineno-0-160"></a>        <span class="n">_assert_runloop_session</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-161"><a id="__codelineno-0-161" name="__codelineno-0-161"></a>        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_delegate</span><span class="p">()</span><span class="o">.</span><span class="n">deactivate</span><span class="p">(</span><span class="n">mount</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">dest</span><span class="p">,</span> <span class="n">base_dir</span><span class="p">)</span>
-</span><span id="__span-0-162"><a id="__codelineno-0-162" name="__codelineno-0-162"></a>
-</span><span id="__span-0-163"><a id="__codelineno-0-163" name="__codelineno-0-163"></a>    <span class="nd">@redact_mount_error_data</span>
-</span><span id="__span-0-164"><a id="__codelineno-0-164" name="__codelineno-0-164"></a>    <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">teardown_for_snapshot</span><span class="p">(</span>
-</span><span id="__span-0-165"><a id="__codelineno-0-165" name="__codelineno-0-165"></a>        <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-166"><a id="__codelineno-0-166" name="__codelineno-0-166"></a>        <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">,</span>
-</span><span id="__span-0-167"><a id="__codelineno-0-167" name="__codelineno-0-167"></a>        <span class="n">session</span><span class="p">:</span> <span class="n">BaseSandboxSession</span><span class="p">,</span>
-</span><span id="__span-0-168"><a id="__codelineno-0-168" name="__codelineno-0-168"></a>        <span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-</span><span id="__span-0-169"><a id="__codelineno-0-169" name="__codelineno-0-169"></a>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-0-170"><a id="__codelineno-0-170" name="__codelineno-0-170"></a>        <span class="n">_assert_runloop_session</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-171"><a id="__codelineno-0-171" name="__codelineno-0-171"></a>        <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_delegate</span><span class="p">()</span><span class="o">.</span><span class="n">teardown_for_snapshot</span><span class="p">(</span><span class="n">mount</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
-</span><span id="__span-0-172"><a id="__codelineno-0-172" name="__codelineno-0-172"></a>
-</span><span id="__span-0-173"><a id="__codelineno-0-173" name="__codelineno-0-173"></a>    <span class="nd">@redact_mount_error_data</span>
-</span><span id="__span-0-174"><a id="__codelineno-0-174" name="__codelineno-0-174"></a>    <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">restore_after_snapshot</span><span class="p">(</span>
-</span><span id="__span-0-175"><a id="__codelineno-0-175" name="__codelineno-0-175"></a>        <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-176"><a id="__codelineno-0-176" name="__codelineno-0-176"></a>        <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">,</span>
-</span><span id="__span-0-177"><a id="__codelineno-0-177" name="__codelineno-0-177"></a>        <span class="n">session</span><span class="p">:</span> <span class="n">BaseSandboxSession</span><span class="p">,</span>
-</span><span id="__span-0-178"><a id="__codelineno-0-178" name="__codelineno-0-178"></a>        <span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-</span><span id="__span-0-179"><a id="__codelineno-0-179" name="__codelineno-0-179"></a>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a>        <span class="n">validate_mount_activation_credential_boundary</span><span class="p">(</span>
-</span><span id="__span-0-181"><a id="__codelineno-0-181" name="__codelineno-0-181"></a>            <span class="n">mount</span><span class="p">,</span>
-</span><span id="__span-0-182"><a id="__codelineno-0-182" name="__codelineno-0-182"></a>            <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-183"><a id="__codelineno-0-183" name="__codelineno-0-183"></a>            <span class="n">manifest</span><span class="o">=</span><span class="nb">getattr</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="s2">&quot;state&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span> <span class="s2">&quot;manifest&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
-</span><span id="__span-0-184"><a id="__codelineno-0-184" name="__codelineno-0-184"></a>            <span class="n">mount_path</span><span class="o">=</span><span class="n">path</span><span class="p">,</span>
-</span><span id="__span-0-185"><a id="__codelineno-0-185" name="__codelineno-0-185"></a>            <span class="n">provider_backend_id</span><span class="o">=</span><span class="s2">&quot;runloop&quot;</span><span class="p">,</span>
-</span><span id="__span-0-186"><a id="__codelineno-0-186" name="__codelineno-0-186"></a>        <span class="p">)</span>
-</span><span id="__span-0-187"><a id="__codelineno-0-187" name="__codelineno-0-187"></a>        <span class="n">_assert_runloop_session</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-188"><a id="__codelineno-0-188" name="__codelineno-0-188"></a>        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">pattern</span><span class="o">.</span><span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;fuse&quot;</span><span class="p">:</span>
-</span><span id="__span-0-189"><a id="__codelineno-0-189" name="__codelineno-0-189"></a>            <span class="k">await</span> <span class="n">_ensure_fuse_support</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-190"><a id="__codelineno-0-190" name="__codelineno-0-190"></a>        <span class="k">await</span> <span class="n">_ensure_rclone</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-191"><a id="__codelineno-0-191" name="__codelineno-0-191"></a>        <span class="n">delegate</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_delegate_for_session</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
-</span><span id="__span-0-192"><a id="__codelineno-0-192" name="__codelineno-0-192"></a>        <span class="k">await</span> <span class="n">delegate</span><span class="o">.</span><span class="n">restore_after_snapshot</span><span class="p">(</span><span class="n">mount</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
-</span><span id="__span-0-193"><a id="__codelineno-0-193" name="__codelineno-0-193"></a>
-</span><span id="__span-0-194"><a id="__codelineno-0-194" name="__codelineno-0-194"></a>    <span class="k">def</span><span class="w"> </span><span class="nf">build_docker_volume_driver_config</span><span class="p">(</span>
-</span><span id="__span-0-195"><a id="__codelineno-0-195" name="__codelineno-0-195"></a>        <span class="bp">self</span><span class="p">,</span>
-</span><span id="__span-0-196"><a id="__codelineno-0-196" name="__codelineno-0-196"></a>        <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">,</span>
-</span><span id="__span-0-197"><a id="__codelineno-0-197" name="__codelineno-0-197"></a>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
-</span><span id="__span-0-198"><a id="__codelineno-0-198" name="__codelineno-0-198"></a>        <span class="k">return</span> <span class="kc">None</span>
-</span></code></pre></div></td></tr></table></div>
-              </details>
-
-
-
-<div class="doc doc-children">
-
-
-
-
-
-
-
-
-
-
-<div class="doc doc-object doc-function">
-
-
-<h4 id="agents.extensions.sandbox.runloop.mounts.RunloopCloudBucketMountStrategy.supports_native_snapshot_detach" class="doc doc-heading">
-            <span class="doc doc-object-name doc-function-name">supports_native_snapshot_detach</span>
-
-
-</h4>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">supports_native_snapshot_detach</span><span class="p">(</span><span class="n">mount</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-internal" title="Mount (agents.sandbox.entries.mounts.base.Mount)" href="../../../../sandbox/entries/mounts/base/#agents.sandbox.entries.mounts.base.Mount">Mount</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="bool">bool</span></span>
+<h1 id="build-a-sandbox-provider">Build a sandbox provider</h1>
+<p>You can distribute a sandbox client in your own Python package. Applications import your client and pass an instance to <code>SandboxRunConfig(client=...)</code>. The SDK does not need to import your package, add it to <code>agents.extensions.sandbox</code>, or discover it through Python entry points.</p>
+<p>This guide describes sandbox execution providers, not model providers. The outer <code>Runner</code> still owns model turns, approvals, handoffs, and run history. Your client and session implement the execution environment.</p>
+<h2 id="start-with-a-working-external-package">Start with a working external package</h2>
+<p>The <a href="https://github.com/openai/openai-agents-python/tree/main/examples/sandbox/external_provider">external provider example</a> is a separately installable distribution with its own <code>pyproject.toml</code>, import package, and runnable demo. It implements <code>ExampleDockerClient</code> by composing the SDK's <code>DockerSandboxClient</code>. The example demonstrates the packaging and client boundary using real Docker execution; it is not a new container engine or a published third-party service.</p>
+<p>After installing the example package, construct the client in application code:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">docker</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">example_docker_provider</span><span class="w"> </span><span class="kn">import</span> <span class="n">ExampleDockerClient</span><span class="p">,</span> <span class="n">ExampleDockerOptions</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">RunConfig</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents.sandbox</span><span class="w"> </span><span class="kn">import</span> <span class="n">SandboxRunConfig</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents.sandbox.sandboxes.docker</span><span class="w"> </span><span class="kn">import</span> <span class="n">DockerSandboxClient</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">connection</span> <span class="o">=</span> <span class="n">docker</span><span class="o">.</span><span class="n">from_env</span><span class="p">()</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">client</span> <span class="o">=</span> <span class="n">ExampleDockerClient</span><span class="p">(</span><span class="n">DockerSandboxClient</span><span class="p">(</span><span class="n">connection</span><span class="p">))</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">run_config</span> <span class="o">=</span> <span class="n">RunConfig</span><span class="p">(</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="n">sandbox</span><span class="o">=</span><span class="n">SandboxRunConfig</span><span class="p">(</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        <span class="n">client</span><span class="o">=</span><span class="n">client</span><span class="p">,</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>        <span class="n">options</span><span class="o">=</span><span class="n">ExampleDockerOptions</span><span class="p">(</span><span class="n">image</span><span class="o">=</span><span class="s2">&quot;python:3.14-slim&quot;</span><span class="p">),</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    <span class="p">),</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="p">)</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="c1"># Pass run_config to Runner.run(...).</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="c1"># Close connection after all runs using this client have finished.</span>
 </span></code></pre></div>
-
-    <div class="doc doc-contents ">
-
-        <p>Return whether native snapshot flows can safely detach this mount in-place.</p>
-
-
-            <details class="mkdocstrings-source">
-              <summary>Source code in <code>src/agents/sandbox/entries/mounts/base.py</code></summary>
-              <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-177">177</a></span>
-<span class="normal"><a href="#__codelineno-0-178">178</a></span>
-<span class="normal"><a href="#__codelineno-0-179">179</a></span>
-<span class="normal"><a href="#__codelineno-0-180">180</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-177"><a id="__codelineno-0-177" name="__codelineno-0-177"></a><span class="k">def</span><span class="w"> </span><span class="nf">supports_native_snapshot_detach</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mount</span><span class="p">:</span> <span class="n">Mount</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-</span><span id="__span-0-178"><a id="__codelineno-0-178" name="__codelineno-0-178"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Return whether native snapshot flows can safely detach this mount in-place.&quot;&quot;&quot;</span>
-</span><span id="__span-0-179"><a id="__codelineno-0-179" name="__codelineno-0-179"></a>    <span class="n">_</span> <span class="o">=</span> <span class="n">mount</span>
-</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a>    <span class="k">return</span> <span class="kc">True</span>
-</span></code></pre></div></td></tr></table></div>
-            </details>
-    </div>
-
-</div>
-
-
-
-  </div>
-
-    </div>
-
-</div>
-
-
-
-
-  </div>
-
-    </div>
-
-</div>
+<p>The <a href="https://github.com/openai/openai-agents-python/blob/main/examples/sandbox/external_provider/src/example_docker_provider/demo.py">demo</a> shows the complete <code>try</code>/<code>finally</code> connection lifecycle. It uses a real container with <code>ScriptedModel</code>, so the demo needs no model API key or model request. The runner creates and cleans up the sandbox session. The application closes the Docker connection that the application created.</p>
+<p>The example requires a typed <code>ExampleDockerOptions</code> instance. Dictionary options passed to <code>SandboxRunConfig</code> are parsed according to the client’s backend ID, which remains <code>docker</code> here; the adapter rejects the resulting Docker options before creating a session. It also rejects unknown fields on its own options model. An adapter must preserve accepted settings or reject unsupported inputs before delegation, especially settings that control isolation. Use <code>DockerSandboxClient</code> directly for Docker networking and other advanced options.</p>
+<p>Use composition when an existing backend already implements your runtime. Return the delegate's <code>SandboxSession</code> unchanged, and delegate serialization and resume to the same backend. The example retains <code>backend_id = "docker"</code> and Docker's state type because the underlying session remains a Docker session. It does not introduce an independent persisted state format or claim additional isolation.</p>
+<h2 id="implement-a-new-execution-runtime">Implement a new execution runtime</h2>
+<p>A backend for a different runtime, such as a micro-VM service, needs its own client and session implementation. The relevant interfaces are exported from <code>agents.sandbox.session</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BaseSandboxClient</code></td>
+<td>Create, resume, and delete sessions; serialize and deserialize backend state.</td>
+</tr>
+<tr>
+<td><code>BaseSandboxClientOptions</code></td>
+<td>Validate provider-specific creation options and support typed JSON parsing.</td>
+</tr>
+<tr>
+<td><code>BaseSandboxSession</code></td>
+<td>Execute commands, access files, manage the runtime lifecycle, and persist or hydrate workspace contents.</td>
+</tr>
+<tr>
+<td><code>SandboxSessionState</code></td>
+<td>Represent the provider identity and workspace state needed for resume.</td>
+</tr>
+<tr>
+<td><code>SandboxSession</code></td>
+<td>Wrap a backend session with the SDK's instrumentation and dependency lifecycle.</td>
+</tr>
+</tbody>
+</table>
+<p>Implement <code>create</code>, <code>resume</code>, <code>delete</code>, and <code>deserialize_session_state</code> on your client. Give a genuinely new runtime a distinct, stable <code>backend_id</code>; the runner checks this identity when restoring its saved sandbox state. Keep credentials, SDK connections, and trusted executable selection on the live client rather than in model-visible options or serialized state.</p>
+<p><code>create</code> receives <code>manifest</code>, <code>snapshot</code>, and your <code>options</code> object. Preserve their meaning instead of silently ignoring inputs. Validate unsupported options before allocating resources where possible, and clean up resources if creation fails. Return an instrumented <code>SandboxSession</code>, not a bare backend session. Existing clients use the base client's <code>_wrap_session</code> hook to preserve dependency cloning and instrumentation; an adapter that delegates to an existing client should reuse the returned wrapper instead of wrapping it again.</p>
+<p>A new <code>BaseSandboxSession</code> must implement the abstract command, file, status, and archive methods: <code>_exec_internal</code>, <code>read</code>, <code>write</code>, <code>running</code>, <code>persist_workspace</code>, and <code>hydrate_workspace</code>. Abstract-method completeness alone does not make a working backend. The session must also implement the appropriate startup and shutdown hooks for its runtime, satisfy the commands used by enabled capabilities and inherited helpers, and enforce its filesystem and process boundaries. Consult the <a href="https://github.com/openai/openai-agents-python/blob/main/src/agents/sandbox/session/base_sandbox_session.py">session implementation</a> and a comparable backend before choosing which operations to inherit.</p>
+<p>Underscored base-class hooks are implementation coupling: pin and test the SDK versions your package supports. Do not copy private helpers from another backend or assume that changing only its command executor gives your runtime the same filesystem, persistence, or isolation semantics. In particular, host filesystem access inherited from a local backend needs a separate trust-boundary assessment for a VM backend.</p>
+<p>State the capabilities your backend supports. Reject unsupported PTY sessions, users, exposed ports, mounts, or manifest entries explicitly instead of executing them on the host as a fallback. Translate provider failures into the SDK's sandbox error types while preserving useful error codes and retryability without exposing credentials or raw sensitive responses.</p>
+<h2 id="registration-happens-when-types-are-imported">Registration happens when types are imported</h2>
+<p>Client selection and serialized-type registration are separate operations:</p>
+<ul>
+<li>Applications select the client by passing an instance to <code>SandboxRunConfig</code>. There is no global client factory or entry-point discovery step.</li>
+<li><code>BaseSandboxClientOptions</code> subclasses register automatically from a non-empty <code>type</code> default when Python defines the class.</li>
+<li><code>SandboxSessionState</code> subclasses register automatically when their <code>type</code> field has a <code>Literal</code> annotation and a non-empty string default.</li>
+</ul>
+<p>For a new runtime, define stable type identifiers owned by your package. The following declarations illustrate the type-registration mechanism; they do not implement a runnable backend:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Literal</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents.sandbox.session</span><span class="w"> </span><span class="kn">import</span> <span class="n">BaseSandboxClientOptions</span><span class="p">,</span> <span class="n">SandboxSessionState</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="k">class</span><span class="w"> </span><span class="nc">AcmeOptions</span><span class="p">(</span><span class="n">BaseSandboxClientOptions</span><span class="p">):</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    <span class="nb">type</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;acme_microvm&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;acme_microvm&quot;</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    <span class="n">image</span><span class="p">:</span> <span class="nb">str</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="k">class</span><span class="w"> </span><span class="nc">AcmeState</span><span class="p">(</span><span class="n">SandboxSessionState</span><span class="p">):</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    <span class="nb">type</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;acme_microvm&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;acme_microvm&quot;</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>    <span class="n">provider_session_id</span><span class="p">:</span> <span class="nb">str</span>
+</span></code></pre></div>
+<p>Import these classes in every process that parses their serialized values, including resume workers. For example, importing the external example package makes <code>BaseSandboxClientOptions.parse({"type": "example_docker", "image": "python:3.14-slim"})</code> return <code>ExampleDockerOptions</code>. Installing a distribution alone does not execute those imports. Do not modify the registries directly. Choose identifiers that do not collide with SDK or other package types; do not rely on collision handling as validation of your package's identity.</p>
+<p>The external Docker example needs only a new options type. Its session state remains <code>DockerSandboxSessionState</code>, which the delegate imports and understands. A package's distribution name, import name, options type, and execution backend ID serve different purposes and need not match.</p>
+<h2 id="preserve-lifecycle-and-resume-semantics">Preserve lifecycle and resume semantics</h2>
+<p>When an application supplies <code>client=</code>, the runner owns the session it creates or resumes. The runner starts the session, uses its capabilities, persists snapshot-backed workspace contents during cleanup, and invokes the backend cleanup paths. Your client must release resources it owns without deleting caller-owned resources. Cleanup must tolerate partial startup and repeated calls.</p>
+<p>When an application supplies a live <code>session=</code>, the application owns that session. The runner can use the session but does not take over its full lifetime. Document how callers close sessions and how callers close live provider connections. See <a href="../guide/#sandbox-lifecycle">session lifecycle</a> for both usage patterns.</p>
+<p>Provider session state and workspace snapshots are different. State identifies or describes an execution environment that can be resumed. A snapshot contains workspace data that can seed a new environment. Resume should reconnect to the existing environment when possible, or reconstruct it from the saved snapshot if your backend supports that behavior. Do not overwrite an injected or resumed workspace with fresh creation inputs.</p>
+<p>Use the client's serialization/deserialization path when restoring a backend session. Generic <code>SandboxSessionState.parse</code> selects a registered type; it does not authenticate a remote session or authorize host paths, credentials, mount access, or network policy. Preserve the SDK's handling of persisted grants and mount authority, and require trusted application configuration to rebind authority when necessary. Document which serialized fields survive across package upgrades, and test that supported saved states remain usable.</p>
+<p>For per-command VMs, specify which files survive the next command, whether guest-installed packages persist, and whether background processes can survive. A warm VM image and an SDK workspace snapshot are not interchangeable.</p>
+<h2 id="package-and-test-the-integration">Package and test the integration</h2>
+<p>Keep provider code in your own import namespace and declare <code>openai-agents</code> plus any runtime client library as package dependencies. The example declares <code>openai-agents[docker]&gt;=0.24.0,&lt;0.25.0</code>. Treat that as the example's compatibility range, not a guarantee that every provider works across that range without testing. Do not publish into the <code>agents</code> namespace or require an SDK fork just to expose your client.</p>
+<p>Before distributing your provider:</p>
+<ol>
+<li>Build and install the distribution into a clean environment. Import it outside your source directory and run an application using <code>SandboxRunConfig(client=...)</code>.</li>
+<li>Test options parsing and state serialization in a fresh interpreter after importing the package. Test unsupported and malformed inputs as well as a valid round trip.</li>
+<li>Exercise the public <code>Runner</code> path with <code>ScriptedModel</code>: fresh client-owned sessions, application-owned live sessions, and persisted Runner resume. Verify resource cleanup after success, tool errors, timeout, cancellation, and partial startup.</li>
+<li>Test workspace snapshot restore and supported file operations. Use framework mocks or the SDK's scripted test helpers for deterministic orchestration checks, while retaining real runtime tests for provider behavior.</li>
+<li>Run real isolation, filesystem, network, and process tests on each supported runtime/platform combination. Mock tests cannot establish those properties. For a delegating adapter, reuse the underlying runtime contract and test that the adapter preserves it.</li>
+</ol>
+<p>The example README contains install and demo commands. The example intentionally leaves a new VM implementation, security policy, and runtime-specific compatibility promises to the provider author.</p>
 
 
 
@@ -5246,10 +5270,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["content.code.copy", "content.code.select", "navigation.path", "navigation.sections", "content.code.annotate"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.code.select", "navigation.path", "navigation.sections", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
